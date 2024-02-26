@@ -379,7 +379,7 @@ MonoBehaviour:
   - {fileID: 6011194252316577282, guid: 6b420515d82f342e5ba6e969f5bbc5f7, type: 3}
   - {fileID: 3770902849048372010, guid: 9300357e744c24beca7ddcf7f03ec7b2, type: 3}
   - {fileID: 8099515222298300760, guid: 9dd852b1f79f94239bc111f3772178da, type: 3}
-  scoreText: {fileID: 1134045379}
+  scoreText: {fileID: 0}
 --- !u!1 &869769391
 GameObject:
   m_ObjectHideFlags: 0
