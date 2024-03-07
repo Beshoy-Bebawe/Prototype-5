@@ -315,6 +315,10 @@
 /define:UNITY_STANDALONE_OSX
 /define:UNITY_TEAM_LICENSE
 /define:USE_SEARCH_ENGINE_API
+"Assets/Challenge 5/Scripts/DestroyObjectX.cs"
+"Assets/Challenge 5/Scripts/DifficultyButtonX.cs"
+"Assets/Challenge 5/Scripts/GameManagerX.cs"
+"Assets/Challenge 5/Scripts/TargetX.cs"
 "Assets/Course Library/_Source_Files/Scripts/DestroyAfterDelay.cs"
 "Assets/Scripts/DifficultyButton.cs"
 "Assets/Scripts/GameManager.cs"
