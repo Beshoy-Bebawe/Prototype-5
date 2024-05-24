@@ -18,11 +18,14 @@ public class GameManager : MonoBehaviour
     public Button restartButton;
     public GameObject titlescreen;
     public GameObject pausescreen;
+    public Slider volumeSlider;
+    public AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
+        volumeSlider.value = 1;
       
-       
+       volumeSlider.onValueChanged.AddListener(delegate {ValueChangeCheck(); });
     }
 
     // Update is called once per frame
@@ -51,6 +54,15 @@ public class GameManager : MonoBehaviour
         
         
     }
+
+    // Invoked when the value of the slider changes.
+    public void ValueChangeCheck()
+    {
+        audioSource.volume = volumeSlider.value;
+        Debug.Log(volumeSlider.value);
+    }
+
+
     IEnumerator SpawnTarget()
     {
         while(isGameActive)
